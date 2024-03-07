@@ -1,0 +1,66 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    background: url(lala.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgba(255,255,255,0.8);
+}
+h2{
+    color: rgba(255,255,255,0.8); ;
+    text-align: center;
+}
+input{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0,0,0, 0.6);
+    border:1px solid rgba(255,255,255,0.5);
+    box-shadow: 2px 2px rgba(255,255,255,0.5);
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.tasks{
+    background-color: rgba(0,0,0, 0.6);
+    border:1px solid rgba(255,255,255,0.5);
+    box-shadow: 2px 2px rgba(255,255,255,0.5);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+ul{
+    color: white;
+}
+li{
+    background-color: rgba(0,0,0, 0.6);
+    border:0.1px solid rgba(255,255,255,0.5);
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.delete{
+    background-color: rgba(255,0,0, 0.6);
+    color: white;
+    margin-right: 5px;
+}
+.task{
+    background-color: rgb(48, 109, 48);
+    color: white;
+    margin-right: 5px;
+}
